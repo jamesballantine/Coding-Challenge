@@ -34,7 +34,7 @@ public class ValidSentence {
 			}
 		}
 		// only punctuation at the end
-		for (int i = 0; i < len - 2; i++) {
+		for (int i = 0; i < len - 1; i++) {
 			if (s.charAt(i) == '.' || s.charAt(i) == '!' || s.charAt(i) == '?')
 				return false;
 		}
